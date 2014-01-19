@@ -1,14 +1,14 @@
-function go(element){
+function go(){
     var array = new Array();
     array[0] = "Red";
     array[1] = "Blue";
     array[3] = "Green";
 
-    var ul = document.createElement("ul");
+    li = document.getElementById("list");
+    li_arr = "";
     for (var i=0; i < array.length; i++){
-	var li = document.createElement("li");
-	li.innerHtml = array[i];
-	ul.appendChild(li);
+	li_arr += "<li>" + array[i] + "</li>";
     }
-    body.insertAfter(ul, element);
+    li.innerHtml = li_arr;
+   
 }
