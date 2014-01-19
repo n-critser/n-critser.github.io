@@ -219,7 +219,14 @@
    <div class="row-fluid">
      <div class="span6 offset1  copy">
        <p>
-	  "Hey all Working on my git hub blog site. "
+	 Post[0]:
+	 REally want this to load dynamically from the posts directory
+	 But thats not happening just yet.
+	 Until then, I'll have to write it in by hand.
+	 So far I have got the blog started and set up.
+	 But don't have much in terms of Content.
+	 Work in Progress.
+	  <h2><i class="fa fa-coffee fa-2x"></i></h2>
        </p>
      </div>
      
@@ -236,8 +243,6 @@
       
      </div>
      <div class="span4 copy copy-right">
-       <input type="button" onclick="go()" value="Display JS Array"/>
-       <ul id="list"></ul>
        <p>
 	 <b>"Parlez-vous...? What?" </b> <br>
 	  <b>"什么地方?...? Where?" </b> <br>
@@ -248,7 +253,7 @@
 	   <ul>
 	     {% for post in site.posts %}
 	     <li>
-	       <a href="{{ post.url }}">{{ post.title }}</a>
+	       <a href="{{ /post/url}}">{{ post.title }}</a>
 	     </li>
 	     {% endfor %}
 	   </ul>
