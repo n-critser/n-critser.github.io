@@ -1,4 +1,4 @@
-   
+   <style type="text/css">
 
       /* Large Desktop */
       @media (min-width: 980px) {
@@ -62,13 +62,6 @@
       line-height: 24px;
       }
 
-      /*   canvas */
-      .canvas {
-	text-align: center;
-	top: 2%;
-	left: 2%;
-	background: transparent;
-	}
       /* Video pitch and Action */
       .pitch {
       padding: 2.5% 0%;
@@ -115,4 +108,4 @@
       .footer a {
       color: #ccccff;
       }
-   
+      </style>
