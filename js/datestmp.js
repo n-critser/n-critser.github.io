@@ -6,6 +6,6 @@ month = (month * 1) + 1
 day = test.getDate()
 year = test.getFullYear()
 document.write(" ",month,"/",day,"/",year," ")
-
+document.write('<FONT COLOR=green>Green Text</FONT>')
 // end hiding script from old browsers -->
 
