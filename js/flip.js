@@ -18,10 +18,16 @@ if ((frags != 0) || (str.length() < 5)){
     document.write(frags[3]);
 }
 
-for (var i =0; i<frags.length; i++){
-    document.write(frags[i]);
+function addNumbers(a,b){
+    var c = a+b;
+    return c;
 }
-document.write( todos[0]);
+
+
+for (var i =0; i<frags.length; i++){
+    document.write(frags[i]+ '*');
+}
+document.write( " Addnumbers = " + addNumbers(4,4) + " "+ "todo:"+ (todos[0]);
 
 // end hiding script from old browsers
 -->
