@@ -15,7 +15,7 @@ var frags = new Array();
 frags = str.split(' ');
 
 if ((frags != 0) || (str.length() < 5)){
-    document.write("frags[2]");
+    document.write(frags[2]);
 }
 
 document.write( todos[0]);
