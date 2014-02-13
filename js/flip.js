@@ -27,7 +27,7 @@ function addNumbers(a,b){
 for (var i =0; i<frags.length; i++){
     document.write(frags[i]+ '*');
 }
-document.write( " Addnumbers = " + addNumbers(4,4) + " "+ "todo:"+ (todos[0]);
+document.write( " Addnumbers = " + addNumbers(4,4) + " "+ "todo:"+ (todos[0]));
 
 // end hiding script from old browsers
 -->
