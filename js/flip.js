@@ -1,4 +1,5 @@
- <!-- hide script from old browsers
+ <!--//
+//http://www.yourhtmlsource.com/javascript/objectsproperties.html hide script from old browsers
 document.write('<FONT COLOR=green>This is flip.js</FONT>')
 
 var age= 25;
@@ -29,5 +30,28 @@ for (var i =0; i<frags.length; i++){
 }
 document.write( " Addnumbers = " + addNumbers(4,4) + " "+ "todo:"+ (todos[0]));
 
+
+
+var revert = new Array();
+var inames = new Array('smirk');
+
+// Preload
+if (document.images) {
+  var flipped = new Array();
+  for(i=0; i< inames.length; i++) {
+    flipped[i] = new Image();
+    flipped[i].src = "assets/"+inames[i]+"2.gif";
+  }
+}
+
+function over(num) {
+  if(document.images) {
+    revert[num] = document.images[inames[num]].src;
+    document.images[inames[num]].src = flipped[num].src;
+  }
+}
+function out(num) {
+  if(document.images) document.images[inames[num]].src = revert[num];
+}
 // end hiding script from old browsers
 -->
