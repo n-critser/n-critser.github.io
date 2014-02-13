@@ -1,0 +1,9 @@
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:48324/hub/session {"sessionId": null, "desiredCapabilities": {"platform": "ANY", "browserName": "firefox", "version": "", "javascriptEnabled": true}}
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:48324/hub/session/5e0c1e4f-4638-418b-9356-df9babc036ac/url {"url": "http://n-critser.github.io/", "sessionId": "5e0c1e4f-4638-418b-9356-df9babc036ac"}
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:48324/hub/session/5e0c1e4f-4638-418b-9356-df9babc036ac/title {"sessionId": "5e0c1e4f-4638-418b-9356-df9babc036ac"}
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:48324/hub/session/5e0c1e4f-4638-418b-9356-df9babc036ac/url {"sessionId": "5e0c1e4f-4638-418b-9356-df9babc036ac"}
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:48324/hub/session/5e0c1e4f-4638-418b-9356-df9babc036ac/element {"using": "name", "sessionId": "5e0c1e4f-4638-418b-9356-df9babc036ac", "value": ""}
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:48324/hub/session/5e0c1e4f-4638-418b-9356-df9babc036ac {"sessionId": "5e0c1e4f-4638-418b-9356-df9babc036ac"}
