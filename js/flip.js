@@ -15,9 +15,12 @@ var frags = new Array();
 frags = str.split(' ');
 
 if ((frags != 0) || (str.length() < 5)){
-    document.write(frags[2]);
+    document.write(frags[3]);
 }
 
+for (var i =0; i<frags.length(); i++){
+    document.write(frags[i]);
+}
 document.write( todos[0]);
 
 // end hiding script from old browsers
