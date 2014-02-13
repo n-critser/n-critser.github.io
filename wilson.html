@@ -12,11 +12,22 @@
       var a = -3, b = 0
       var subsent = "x"
       // Creates a function to capture substrings of sent - SECTION B
-      function makeSub(a,b) { subsent = sent.substring(a,b) ; return subsent; }
+
+      function makeSub(a,b) {
+      subsent = sent.substring(a,b) ;
+      return subsent;
+      }
+
       //Creates a function that increments the indexes of the substring - SECTION C
       //each time and calls the makeSub() function to geneate strings
       //a indicates start of substring and siz indicates size of string required
-      function newMake() { a = a + 3; b = a + siz makeSub(a,b); return subsent }
+
+      function newMake() {
+      a = a + 3;
+      b = a + siz makeSub(a,b);
+      return subsent
+      }
+      
       //function uses loop to get changing substrings of target - SECTION D
       //repeatedly calls newMake to get next substring
       //uses setTimeout() command to arrange for substrings to display
