@@ -12,7 +12,7 @@ todos[2] = "BUG:";
 
 var str = "Contact me at nick@nickcritser.com"
 var frags = new Array();
-frags = b.split(' ');
+frags = str.split(' ');
 
 if ((frags != 0) || (str.length() < 5)){
     document.write("frags[2]");
