@@ -1,4 +1,4 @@
- <!--//
+ <!--//great tutorials
 //http://www.yourhtmlsource.com/javascript/objectsproperties.html hide script from old browsers
 document.write('<FONT COLOR=green>This is flip.js</FONT>')
 
