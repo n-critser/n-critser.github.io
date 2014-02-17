@@ -79,8 +79,11 @@
       }
 
       .actions {
-      background-color: #343434;
-      padding: 3% 0%;
+	  text-align: center;
+	  top: 2%;
+	  left: 2%;
+	  background-color: #343434;
+	  padding: 3% 0%;
       }
       
       .video, .thermometer, .order, .social, .statistics {
