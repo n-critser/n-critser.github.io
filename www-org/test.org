@@ -1,0 +1,61 @@
+#+STYLE:   <link href="css/org.css" rel="stylesheet" type="text/css">
+
+
+/home/chaos/Dev/n-critser.github.io/orgDo
+
+
+
+
+\begin{equation}
+\Delta =\sum_{i=1}^N w_i (x_i - \bar{x})^2 \frac{y_i}{x_i}
+\end{equation}
+
+
+#+ATTR_HTML: border="2" rules="all" frame="border"
+| column 1 | column 2 | column 3 |
+|        a |        b |        c |
+|      1.4 |      2.5 |      3.6 |
+|      1.4 |      2.5 |      3.6 |
+
+
+#+BEGIN_SRC c++
+
+int main(int argc, char* argv[]){
+       log << debug::Logger::DEBUG << "\nDebug-Log: Line 1!";
+
+	std::cout << "number of args =" << argc << std::endl;
+        std::string addressFile="";
+
+	/* THIS SECTION IS FOR FILE INPUT
+	 * If the program is ran without sufficient arguments it Will exit gracefully
+	 * with suggestions for the usage of the program.
+	 *
+	 if (argc < 2) {
+                 std::cerr << "Address File not Found\n";
+                 std::cerr << "Usage:  " << argv[0] << " filename.txt" << std::endl;
+	    return -1;
+	  }
+        */
+
+        int head = 3;
+        BSTree<int> number_tree(head);
+        std::string tree_string="";
+        try {
+                /*An int tree instantiated  */              
+                number_tree.insert(12);
+                number_tree.insert(-6);
+                number_tree.printTree(tree_string);
+                std::cout << "\nSpace\n"<<std::endl;
+                // number_tree.find(3);
+                std::cout<< number_tree.find(head) <<std::endl;
+        } catch (...) {
+                log << debug::Logger::DEBUG << "\nEXCEPTION BUILDING TREE\n";
+        }
+
+        
+         return 0;
+}
+#+END_SRC
+
+
+

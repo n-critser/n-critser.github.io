@@ -1,0 +1,5 @@
+#+TITLE: Sitemap
+
+   + [[file:README.org][README.org]]
+   + [[file:index.org][index.org]]
+   + [[file:test.org][test]]

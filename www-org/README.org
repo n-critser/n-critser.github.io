@@ -1,0 +1,17 @@
+#+TITLE:       README.org
+#+AUTHOR:      N-CRITSER
+#+OPTIONS:     H:2 num:t toc:t \n:nil @:t ::t |:t ^:t f:t TeX:t ...
+     H:         set the number of headline levels for export
+     num:       turn on/off section-numbers
+     toc:       turn on/off table of contents, or set level limit (integer)
+
+
+* BREAKDOWN 
+This is the readme file for my static github site.  I use 
+Emacs/ orgMode / and the great github pages to create all this.
+
+Along with a bunch of help from [ org mode link!!! ]
+and this tutorial http://www.personal.psu.edu/nus173/sitecreation.html.
+
+
+ 

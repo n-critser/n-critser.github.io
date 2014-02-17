@@ -1,0 +1,8 @@
+#+AUTHOR:    
+#+EMAIL:     
+#+LINK_HOME: index.html
+#+LINK_UP:   index.html
+#+STYLE:   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"> ; new line
+#+STYLE:   <link href="css/bootstrap-responsive.min.css" rel="stylesheet">  ; new line
+#+STYLE:   <link href="css/org.css" rel="stylesheet" type="text/css"> ; new line
+#+INFOJS_OPT: path:js/org-info.js view:showall toc:nil ltoc:nil tdepth:2 mouse:#dddddd
